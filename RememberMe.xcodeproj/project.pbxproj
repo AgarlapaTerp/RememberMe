@@ -11,6 +11,10 @@
 		755D0B992BE3238100C6BAB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D0B982BE3238100C6BAB5 /* ContentView.swift */; };
 		755D0B9B2BE3238200C6BAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755D0B9A2BE3238200C6BAB5 /* Assets.xcassets */; };
 		755D0B9E2BE3238200C6BAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755D0B9D2BE3238200C6BAB5 /* Preview Assets.xcassets */; };
+		755D0BA52BE32FE900C6BAB5 /* Pic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D0BA42BE32FE900C6BAB5 /* Pic.swift */; };
+		755D0BA72BE3317800C6BAB5 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D0BA62BE3317800C6BAB5 /* ContactsView.swift */; };
+		755D0BA92BE334AB00C6BAB5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D0BA82BE334AB00C6BAB5 /* SwiftUIView.swift */; };
+		755D0BAB2BE33A1C00C6BAB5 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D0BAA2BE33A1C00C6BAB5 /* LocationFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		755D0B982BE3238100C6BAB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		755D0B9A2BE3238200C6BAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		755D0B9D2BE3238200C6BAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		755D0BA42BE32FE900C6BAB5 /* Pic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pic.swift; sourceTree = "<group>"; };
+		755D0BA62BE3317800C6BAB5 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		755D0BA82BE334AB00C6BAB5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		755D0BAA2BE33A1C00C6BAB5 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				755D0B962BE3238100C6BAB5 /* RememberMeApp.swift */,
 				755D0B982BE3238100C6BAB5 /* ContentView.swift */,
+				755D0BAA2BE33A1C00C6BAB5 /* LocationFetcher.swift */,
+				755D0BA62BE3317800C6BAB5 /* ContactsView.swift */,
+				755D0BA82BE334AB00C6BAB5 /* SwiftUIView.swift */,
+				755D0BA42BE32FE900C6BAB5 /* Pic.swift */,
 				755D0B9A2BE3238200C6BAB5 /* Assets.xcassets */,
 				755D0B9C2BE3238200C6BAB5 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755D0BA52BE32FE900C6BAB5 /* Pic.swift in Sources */,
 				755D0B992BE3238100C6BAB5 /* ContentView.swift in Sources */,
+				755D0BAB2BE33A1C00C6BAB5 /* LocationFetcher.swift in Sources */,
 				755D0B972BE3238100C6BAB5 /* RememberMeApp.swift in Sources */,
+				755D0BA72BE3317800C6BAB5 /* ContactsView.swift in Sources */,
+				755D0BA92BE334AB00C6BAB5 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +290,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RememberMe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will save locations of where you meet people";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RememberMe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will save locations of where you meet people";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
